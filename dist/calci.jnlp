@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="calci.jnlp">
+  <information>
+    <title>calci</title>
+    <vendor>Admin</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="calci.jar" size="21306" download="eager" />
+    <jar href="lib\marytts-builder-5.2-jar-with-dependencies.jar" size="35640312" download="eager" />
+    <jar href="lib\marytts-lang-en-5.2.jar" size="6908619" download="eager" />
+    <jar href="lib\sphinx4-core-5prealpha-20160628.232526-10.jar" size="1259793" download="eager" />
+    <jar href="lib\sphinx4-core-5prealpha-usefull-doc.jar" size="935937" download="eager" />
+    <jar href="lib\sphinx4-data-5prealpha-20160628.232535-10.jar" size="35643722" download="eager" />
+    <jar href="lib\voice-cmu-rms-hsmm-5.2.jar" size="1029161" download="eager" />
+    <jar href="lib\voice-cmu-slt-hsmm-5.2.jar" size="1242746" download="eager" />
+    <jar href="lib\voice-dfki-poppy-hsmm-5.2.jar" size="1017211" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="calci" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="calci.Main"  name="calci" />
+  <update check="always"/>
+</jnlp>
